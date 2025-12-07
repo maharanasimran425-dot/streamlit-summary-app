@@ -1,7 +1,6 @@
+import google.generativeai as genai
 import streamlit as st
 
-
-from google import genai
 st.title("QuickSummary")
 
 client = genai.Client(api_key="AIzaSyByxAvghwrrjTBczinskJvm1BOrAM7iNi8")
@@ -26,4 +25,5 @@ if st.button("Generating"):
        else:
            st.warning("Please uplode your file ⚠") 
     
+
    
