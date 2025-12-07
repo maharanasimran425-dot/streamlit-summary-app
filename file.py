@@ -3,7 +3,7 @@ from google import genai
 
 st.title("QuickSummary")
 
-client = genai.Client(api_key="AIzaSyByxAvghwrrjTBczinskJvm1BOrAM7iNi8")
+client = genai.Client(api_key="Add_your_own_api_key")
 
 def answer(prompt):
     response = client.models.generate_content(
@@ -27,4 +27,5 @@ if st.button("Generating"):
     
 
    
+
 
