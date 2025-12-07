@@ -1,5 +1,5 @@
-import google.generativeai as genai
 import streamlit as st
+from google import genai
 
 st.title("QuickSummary")
 
@@ -27,3 +27,4 @@ if st.button("Generating"):
     
 
    
+
